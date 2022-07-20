@@ -10,18 +10,14 @@ body {
 
 
 .container{
-    width: 1200px;
-    margin-left: 30px;
     margin-top: 50px;
-
     display: flex;
-    justify-content: center;
-
-    /* flex-direction: column; */
-    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .size {
+    width: 1200px;
     height: 540px;
     background-color: #1E1E1E;
     border-radius: 25px;
@@ -68,10 +64,6 @@ body {
     margin-top: 30px;
     margin-left: 80px;
 }
-
-
-
-
 .middle {
     display: flex;
     gap: 10px;
@@ -145,10 +137,6 @@ body {
 .fa-comment-dots {
     margin-left: 20px;
 }
-
-
-
-
 
 footer {
     background-color: #161616;
