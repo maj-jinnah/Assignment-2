@@ -239,12 +239,14 @@ footer hr {
         align-items: center; 
         width: 80%;
         height: 400px;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 0px;
         text-align: center;
     }
     .text p{
-        width: 350px;
+        padding: 40px 0px;
+        width: 300px;
+        height: 20px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -252,8 +254,11 @@ footer hr {
     .player img {
         width: 90%;
         height: 80%;
-        margin-top: 50px;
-        margin-left: 40px;
+        margin-top: 85px;
+        margin-left: 30px;
+    }
+    .watch-butt {
+        margin-top: 30px;
     }
     .middle {
         display: flex;
