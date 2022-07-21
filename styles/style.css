@@ -213,7 +213,7 @@ footer hr {
 
 /* Mobile Device */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
     .container{
         margin: 0px;
         margin-top: 40px;
@@ -221,7 +221,7 @@ footer hr {
     .size{
         /* background-color: rgb(29, 249, 37); */
         width: 95%;
-        height: 795px;
+        height: 850px;
     }
     .player-and-text {
         color: #FFFFFF;
@@ -240,7 +240,7 @@ footer hr {
         text-align: center;
     }
     .text p{
-        width: 450px;
+        width: 350px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -248,7 +248,7 @@ footer hr {
     .player img {
         width: 90%;
         height: 80%;
-        margin-top: 0px;
+        margin-top: 50px;
         margin-left: 40px;
     }
     .middle {
